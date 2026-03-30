@@ -1,62 +1,30 @@
-copyright = "© Your Name"
-defaultContentLanguage = "en"
-disableKinds = ["taxonomy"]
-enableRobotsTXT = true
-languageCode = "en"
-timeZone = "Europe/Berlin"
-timeout = "120s"
-title = "Gallery"
+baseURL = "https://ArthurMolendowski.github.io/"
+
+# 1. Zmień na swój rok i imię/nazwisko
+copyright = "© 2026 Artur Molendowski"
+defaultContentLanguage = "pl" # Zmień na "pl" dla polskiej wersji
+languageCode = "pl"
+title = "W Granicach Spaceru" # Tytuł na karcie w przeglądarce
 
 [params]
-  defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
+  defaultTheme = "dark" # Zostaw "dark" - zdjęcia najlepiej wyglądają na czarnym
+  description = "Portfolio fotograficzne - W Granicach Spaceru"
+  title = "Artur Molendowski - W Granicach Spaceru" # Tytuł widoczny na stronie głównej
+  
   [params.author]
-    email = "user@example.com"
-    name = "Your Name"
-  [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
-    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    youtube = "https://www.youtube.com/"
-    email = "mailto:user@example.com"
-    #website = "https://example.com"
-    #mastodon = "https://example.com"
-    #pixelfed = "https://example.com"
-    #mixcloud = "https://example.com"
-    #flickr = "https://www.flickr.com"
-    #500px = "https://500px"
-    #whatsapp = "1234567890"
-  [params.gallery]
-    #boxSpacing = 10
-    #targetRowHeight = 288
-    #targetRowHeightTolerance = 0.25
+    email = "twoj@email.com"
+    name = "Twoje Imię"
 
-[outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML"]
-  section = ["HTML"]
+  [params.socialIcons]
+    # Wklej linki do swoich profili lub usuń linię, jeśli czegoś nie używasz
+    instagram = "https://www.instagram.com/TWOJ_PROFIL/"
+    facebook = "https://www.facebook.com/TWOJ_PROFIL/"
+    email = "mailto:twoj@email.com"
+    # github = ... (tę linię możesz usunąć, żeby nie linkować do twórcy szablonu)
+
+[params.gallery]
+    boxSpacing = 10 # Odstępy między zdjęciami w pikselach
+    targetRowHeight = 300 # Wysokość rzędów zdjęć (możesz zwiększyć)
 
 [imaging]
-  quality = 75
-  resampleFilter = "CatmullRom"
-  [imaging.exif]
-    disableDate = false
-    disableLatLong = true
-    includeFields = "ImageDescription|Orientation"
-
-[module]
-  [module.hugoVersion]
-    min = "0.121.2"
-  [[module.imports]]
-    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
-
-[menu]
-  [[menu.footer]]
-    name = "GitHub"
-    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    weight = 3
-
-[services]
-  [services.rss]
-    limit = 100
+    quality = 85 # Podbiłem jakość zdjęć z 75 na 85 dla lepszego efektu
