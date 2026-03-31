@@ -6,7 +6,7 @@ categories: ["Fotografia motoryzacyjna"]
 params:
   theme: light
 resources:
-  - src: 119-AMS03810.jpg
+  - src: /Kryterium-Super-OES_ Tor-Poznań/Kryterium_OES_foto/119-AMS03810.jpg
     params:
       cover: true
 ---
