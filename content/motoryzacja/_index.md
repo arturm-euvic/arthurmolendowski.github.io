@@ -6,7 +6,7 @@ categories: ["Fotografia motoryzacyjna"]
 params:
   theme: dark
 resources:
-  - src: 119-AMS03810.jpg
+  - src: 12-AMS04696.jpg
     params:
       cover: true
 ---
