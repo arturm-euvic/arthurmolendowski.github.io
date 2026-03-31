@@ -2,7 +2,7 @@
 title: "Fotografia motoryzacyjna"
 date: 2026-03-30
 menus: "main"
-weight: 1
+weight: 3
 categories: ["Fotografia motoryzacyjna"]
 params:
   theme: dark
