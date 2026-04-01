@@ -8,6 +8,4 @@ description: "Mój projekt 365 na Tookapic. Kliknij poniższy link, aby przejś�
 
 # [KLIKNIJ TUTAJ, ABY PRZEJŚĆ DO TOOKAPIC](https://tookapic.com/snufkin_artur)
 
-<script>
-  window.location.href = "https://tookapic.com/snufkin_artur";
-</script>
+<script>window.location.replace("https://tookapic.com/snufkin_artur");</script>
